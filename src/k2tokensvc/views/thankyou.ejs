@@ -1,0 +1,18 @@
+<HTML>
+<TITLE>Registered</TITLE>
+<BODY>
+        <TABLE>
+            <TR>
+                <TD><IMG SRC="/images/k2-logo.jpg"></TD>
+                <TD>    
+                <% if (jwt) { %>
+                    <h3>THANK YOU!</h3>
+                    <p>Name: <%- jwt.name %><p>	
+                    <p>IP: <%- jwt.ipaddr %><p>	
+                <% } else { %>                    
+                    <h3>ERROR</h3>
+                <% } %>                    
+            </TR>   
+        </TABLE>
+</BODY>
+</HTML>

@@ -1,0 +1,17 @@
+<HTML>
+<TITLE>ERROR</TITLE>
+<BODY>
+        <TABLE>
+            <TR>
+                <TD><IMG SRC="/images/k2-logo.jpg"></TD>
+                <TD>    
+                    <h3>ERROR</h3>
+                <% if (err) { %>
+                    <p>Error: <%-  err %><p>	
+                <% } else { %>                    
+                    <p>Internal Server Error<p>	
+                <% } %>                    
+            </TR>   
+        </TABLE>
+</BODY>
+</HTML>
