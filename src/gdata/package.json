@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "aes256": "^1.0.3",
-    "google-cloud": "^0.57.0",
+    "google-cloud": "^0.58.2",
     "grpc": "^1.11.3",
     "sha": "^2.0.1",
     "sha-256-js": "^1.0.3",
